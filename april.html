@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>April — Wong Sin Jet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-glow" aria-hidden="true">
+    <div class="water-wash"></div>
+    <span class="orb orb-a"></span>
+    <span class="orb orb-b"></span>
+    <span class="orb orb-c"></span>
+    <span class="orb orb-d"></span>
+    <div class="water-caustics"></div>
+    <div class="water-shimmer"></div>
+    <div class="bubbles">
+      <span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <div class="wave-band">
+      <svg class="wave-1" viewBox="0 0 2880 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,64 C240,120 480,0 720,48 C960,96 1200,24 1440,64 C1680,120 1920,0 2160,48 C2400,96 2640,24 2880,64 L2880,120 L0,120 Z"></path>
+      </svg>
+      <svg class="wave-2" viewBox="0 0 2880 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,80 C200,20 400,100 720,60 C1040,20 1240,90 1440,50 C1640,20 1840,100 2160,60 C2480,20 2680,90 2880,50 L2880,120 L0,120 Z"></path>
+      </svg>
+      <svg class="wave-3" viewBox="0 0 2880 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,90 C320,40 560,110 880,70 C1120,40 1280,100 1440,80 C1760,40 2000,110 2320,70 C2560,40 2720,100 2880,80 L2880,120 L0,120 Z"></path>
+      </svg>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">WSJ</span>
+        <span class="brand-text">Wong Sin Jet<small>Internship portfolio · 2026</small></span>
+      </a>
+      <nav class="nav-links"><a class="home" href="index.html">← Home</a></nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="month-hero">
+      <div class="wrap">
+        <span class="eyebrow">Month 01 · Longmotive internship</span>
+        <h1>April.</h1>
+        <p class="subtitle">Learning the site’s operating rhythm: reliable daily support, clear communication, and a first chance to represent the team at workplace events.</p>
+        <div class="month-hero-photo">
+          <div class="photo-slot" data-label="April">
+            <img src="images/april.jpg" alt="April internship at Longmotive" data-photo>
+            <div class="photo-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <rect x="3" y="4" width="18" height="14" rx="2"/>
+                <path d="M3 15l5-4 4 3 3-2 6 5"/>
+              </svg>
+              <span>April cover photo</span>
+              <small>images/april.jpg</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="weekly">
+          <div class="week-label"><span>Week 01</span>Settling in</div>
+          <div>
+            <h3>Learning how daily site support connects.</h3>
+            <p>I began by understanding how materials, orders, office tasks, and workers move through the site each day.</p>
+            <ul>
+              <li>Supported storekeeping and checked the organisation of stock.</li>
+              <li>Helped maintain ordering records and follow-up coordination.</li>
+              <li>Assisted with office cleanliness and task coordination.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="weekly">
+          <div class="week-label"><span>Week 02</span>Daily rhythm</div>
+          <div>
+            <h3>Supporting a consistent working environment.</h3>
+            <p>My focus was on dependable daily operations and helping workers receive the information they need.</p>
+            <ul>
+              <li>Continued storekeeping and material-ordering support.</li>
+              <li>Coordinated office tasks to keep shared spaces orderly.</li>
+              <li>Supported worker inductions, especially for Chinese workers.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="weekly">
+          <div class="week-label"><span>Week 03</span>Earth Day</div>
+          <div>
+            <h3>Using language and coordination skills for an event.</h3>
+            <p>On 21 April, I supported the Earth Day activity by preparing announcement wording and serving as the Chinese-language emcee.</p>
+            <ul>
+              <li>Prepared the event announcement script.</li>
+              <li>Hosted in Chinese to support clear participation.</li>
+              <li>Continued core store, order, and induction responsibilities.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="weekly">
+          <div class="week-label"><span>Week 04</span>Safety &amp; health</div>
+          <div>
+            <h3>Helping a workplace event run smoothly.</h3>
+            <p>On 28 April, I joined the World Day for Safety and Health at Work activity.</p>
+            <ul>
+              <li>Distributed event T-shirts to participants.</li>
+              <li>Helped maintain an organised and orderly environment.</li>
+              <li>Continued daily support for office and worker coordination.</li>
+            </ul>
+          </div>
+        </div>
+        <aside class="note"><b>April takeaway:</b> Strong operations rely on small tasks being completed consistently. I learned to support both the physical flow of materials and the human flow of communication.</aside>
+      </div>
+    </section>
+  </main>
+
+  <div class="wrap pager">
+    <a href="index.html">← Portfolio home</a>
+    <a href="may.html">May →</a>
+  </div>
+  <script>
+    document.querySelectorAll('img[data-photo]').forEach(function (img) {
+      var slot = img.closest('.photo-slot');
+      function show() { if (slot) slot.classList.add('has-image'); }
+      function hide() { img.style.display = 'none'; if (slot) slot.classList.remove('has-image'); }
+      img.addEventListener('load', show);
+      img.addEventListener('error', hide);
+      if (img.complete) { if (img.naturalWidth > 0) show(); else hide(); }
+    });
+  </script>
+</body>
+</html>

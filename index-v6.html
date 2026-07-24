@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wong Sin Jet - Internship Portfolio 2026 (v6)</title>
+  <meta name="description" content="Internship portfolio by Wong Sin Jet: four months of site operations, worker coordination, and practical automation at Longmotive.">
+  <link rel="stylesheet" href="style-v6.css">
+</head>
+<body>
+  <!-- Light ambient motion: soft orbs + few bubbles + one wave (no CSS blur filters) -->
+  <div class="bg-glow" aria-hidden="true">
+    <div class="water-wash"></div>
+    <span class="orb orb-a"></span>
+    <span class="orb orb-b"></span>
+    <span class="orb orb-c"></span>
+    <div class="bubbles">
+      <span></span><span></span><span></span>
+    </div>
+    <div class="wave-band">
+      <svg viewBox="0 0 2880 90" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0,40 C240,80 480,10 720,36 C960,62 1200,18 1440,40 C1680,62 1920,10 2160,36 C2400,62 2640,18 2880,40 L2880,90 L0,90 Z"></path>
+      </svg>
+    </div>
+  </div>
+
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a class="brand" href="index-v6.html">
+        <span class="brand-mark">WSJ</span>
+        <span class="brand-text">Wong Sin Jet<small>Internship · 2026 · v6</small></span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#project">System</a>
+        <a href="#gallery">Photos</a>
+        <a href="#months">Timeline</a>
+        <a class="btn btn-sm btn-primary" href="mailto:sinwongjet@gmail.com">Get in touch</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO: asymmetric split -->
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy reveal">
+          <span class="pill">
+            <span class="pill-dot" aria-hidden="true"></span>
+            Data analyst · Operations &amp; automation
+          </span>
+          <h1>
+            Daily work, turned into
+            <em>clearer systems.</em>
+          </h1>
+          <p class="lead">
+            Four months at Longmotive documenting how site operations, worker coordination,
+            and simple automation become tools people can trust.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#project">View featured system</a>
+            <a class="btn btn-ghost" href="#gallery">Progress photos</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal delay-1">
+          <div class="portrait-frame">
+            <div class="photo-slot portrait-slot">
+              <img src="images/portrait.jpg" alt="Wong Sin Jet at Longmotive" data-photo>
+              <div class="photo-placeholder">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                  <path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"/>
+                  <path d="M4 20c0-3.3 3.6-6 8-6s8 2.7 8 6"/>
+                </svg>
+                <span>Personal photo</span>
+                <small>images/portrait.jpg</small>
+              </div>
+            </div>
+            <div class="float-card float-meta">
+              <span class="eyebrow">April to July 2026</span>
+              <strong>Longmotive</strong>
+              <p>Construction site ops<br>Johor · 5.5-day week</p>
+            </div>
+            <div class="float-card float-tags" aria-hidden="true">
+              <span>Field ops</span>
+              <span>Automation</span>
+              <span>Dashboards</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ROLE + METRICS -->
+    <section class="section" id="role">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2>Close to the work.<br>Focused on the system.</h2>
+          <p>
+            Stock, orders, office standards, worker inductions, and the tools that make those
+            routines easier to run day after day.
+          </p>
+        </div>
+        <div class="stats reveal">
+          <div class="stat">
+            <b>4</b>
+            <span>months of field operations</span>
+          </div>
+          <div class="stat">
+            <b>5.5</b>
+            <span>working days each week</span>
+          </div>
+          <div class="stat">
+            <b>1</b>
+            <span>induction system built end-to-end</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECT -->
+    <section class="section section-tint" id="project">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">Featured work</span>
+          <h2>Scattered records to one clear view.</h2>
+          <p>
+            A structured worker-induction workflow linking how people enter a site with
+            simple data tools the team can use every day.
+          </p>
+        </div>
+
+        <article class="project reveal">
+          <div class="project-intro">
+            <h3>One process. One record. One status board.</h3>
+            <p>
+              Intake, tracking, and reporting in one place: a central sheet, light automation,
+              and a visual dashboard so induction status is easy to check and discuss.
+            </p>
+
+            <div class="shots">
+              <figure class="shot">
+                <div class="photo-slot">
+                  <img src="images/system.jpg" alt="Induction system interface" data-photo>
+                  <div class="photo-placeholder">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                      <rect x="3" y="4" width="18" height="14" rx="2"/>
+                      <path d="M3 15l5-4 4 3 3-2 6 5"/>
+                    </svg>
+                    <span>System</span>
+                    <small>images/system.jpg</small>
+                  </div>
+                </div>
+                <figcaption>
+                  <strong>System view</strong>
+                  <span>Sheets / intake workflow</span>
+                </figcaption>
+              </figure>
+
+              <figure class="shot">
+                <div class="photo-slot">
+                  <img src="images/dashboard.jpg" alt="Induction dashboard" data-photo>
+                  <div class="photo-placeholder">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                      <rect x="3" y="4" width="18" height="14" rx="2"/>
+                      <path d="M7 14v-2M12 14V8M17 14v-4"/>
+                    </svg>
+                    <span>Dashboard</span>
+                    <small>images/dashboard.jpg</small>
+                  </div>
+                </div>
+                <figcaption>
+                  <strong>Dashboard</strong>
+                  <span>HTML / Power BI board</span>
+                </figcaption>
+              </figure>
+
+              <figure class="shot wide">
+                <div class="photo-slot">
+                  <img src="images/workflow.jpg" alt="Full induction workflow overview" data-photo>
+                  <div class="photo-placeholder">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                      <rect x="3" y="4" width="18" height="14" rx="2"/>
+                      <path d="M3 15l5-4 4 3 3-2 6 5"/>
+                    </svg>
+                    <span>Workflow overview</span>
+                    <small>images/workflow.jpg</small>
+                  </div>
+                </div>
+                <figcaption>
+                  <strong>How it fits together</strong>
+                  <span>Intake to sheet to automation to dashboard</span>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <ol class="steps">
+            <li>
+              <div>
+                <h4>Unified intake</h4>
+                <p>Standardised fields captured at induction so every record starts the same way.</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h4>Central Google Sheet</h4>
+                <p>One shared source of truth the team can open anytime.</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h4>Apps Script automation</h4>
+                <p>Less manual handling, records stay current with less effort.</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <h4>HTML + Power BI dashboard</h4>
+                <p>Status that is easy to monitor, share, and talk through.</p>
+              </div>
+            </li>
+          </ol>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROGRESS PHOTOS -->
+    <section class="section" id="gallery">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2>Progress in pictures.</h2>
+          <p>
+            Site work, team events, tools in use, and moments that do not fit in a spreadsheet.
+          </p>
+        </div>
+
+        <div class="gallery reveal">
+          <figure class="gallery-item tall">
+            <div class="photo-slot">
+              <img src="images/progress-01.jpg" alt="Daily site operations" data-photo>
+              <div class="photo-placeholder">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                  <rect x="3" y="4" width="18" height="14" rx="2"/>
+                  <path d="M3 15l5-4 4 3 3-2 6 5"/>
+                </svg>
+                <span>Daily ops</span>
+                <small>images/progress-01.jpg</small>
+              </div>
+            </div>
+            <figcaption>
+              <strong>Daily operations</strong>
+              <span>Storekeeping, materials, office flow</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <div class="photo-slot">
+              <img src="images/progress-02.jpg" alt="Workplace event" data-photo>
+              <div class="photo-placeholder">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                  <rect x="3" y="4" width="18" height="14" rx="2"/>
+                  <path d="M3 15l5-4 4 3 3-2 6 5"/>
+                </svg>
+                <span>Team event</span>
+                <small>images/progress-02.jpg</small>
+              </div>
+            </div>
+            <figcaption>
+              <strong>Workplace events</strong>
+              <span>Earth Day, safety day, festivals</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <div class="photo-slot">
+              <img src="images/progress-03.jpg" alt="Tools and systems" data-photo>
+              <div class="photo-placeholder">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                  <rect x="3" y="4" width="18" height="14" rx="2"/>
+                  <path d="M3 15l5-4 4 3 3-2 6 5"/>
+                </svg>
+                <span>Tools in action</span>
+                <small>images/progress-03.jpg</small>
+              </div>
+            </div>
+            <figcaption>
+              <strong>Systems and tools</strong>
+              <span>Sheets, dashboards, automation</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item wide">
+            <div class="photo-slot">
+              <img src="images/progress-04.jpg" alt="Internship highlight" data-photo>
+              <div class="photo-placeholder">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                  <rect x="3" y="4" width="18" height="14" rx="2"/>
+                  <path d="M3 15l5-4 4 3 3-2 6 5"/>
+                </svg>
+                <span>Highlight moment</span>
+                <small>images/progress-04.jpg</small>
+              </div>
+            </div>
+            <figcaption>
+              <strong>Internship highlight</strong>
+              <span>A defining moment from the four months</span>
+            </figcaption>
+          </figure>
+        </div>
+
+        <p class="gallery-hint reveal">
+          Drop photos into <code>images/</code> using names like <code>portrait.jpg</code> and
+          <code>dashboard.jpg</code>. Placeholders fill automatically when files are present.
+        </p>
+      </div>
+    </section>
+
+    <!-- TIMELINE -->
+    <section class="section section-tint" id="months">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">Timeline</span>
+          <h2>Four months, week by week.</h2>
+          <p>
+            Continuous responsibilities plus events where I supported safety, communication,
+            and site community.
+          </p>
+        </div>
+
+        <div class="month-grid">
+          <a class="month reveal delay-1" href="april.html">
+            <div class="month-photo photo-slot">
+              <img src="images/april.jpg" alt="April internship" data-photo>
+              <div class="photo-placeholder compact">
+                <span>April photo</span>
+                <small>images/april.jpg</small>
+              </div>
+            </div>
+            <div class="month-body">
+              <span class="num">Month 01</span>
+              <h3>April</h3>
+              <p>Learning site rhythm and supporting Earth Day.</p>
+              <span class="arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+
+          <a class="month reveal delay-2" href="may.html">
+            <div class="month-photo photo-slot">
+              <img src="images/may.jpg" alt="May internship" data-photo>
+              <div class="photo-placeholder compact">
+                <span>May photo</span>
+                <small>images/may.jpg</small>
+              </div>
+            </div>
+            <div class="month-body">
+              <span class="num">Month 02</span>
+              <h3>May</h3>
+              <p>Daily operations and scissor-lift safety support.</p>
+              <span class="arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+
+          <a class="month reveal delay-3" href="june.html">
+            <div class="month-photo photo-slot">
+              <img src="images/june.jpg" alt="June internship" data-photo>
+              <div class="photo-placeholder compact">
+                <span>June photo</span>
+                <small>images/june.jpg</small>
+              </div>
+            </div>
+            <div class="month-body">
+              <span class="num">Month 03</span>
+              <h3>June</h3>
+              <p>Operational consistency and Dragon Boat Festival.</p>
+              <span class="arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+
+          <a class="month reveal delay-4" href="july.html">
+            <div class="month-photo photo-slot">
+              <img src="images/july.jpg" alt="July internship" data-photo>
+              <div class="photo-placeholder compact">
+                <span>July photo</span>
+                <small>images/july.jpg</small>
+              </div>
+            </div>
+            <div class="month-body">
+              <span class="num">Month 04</span>
+              <h3>July</h3>
+              <p>Consolidating work and closing the internship.</p>
+              <span class="arrow" aria-hidden="true">→</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section class="contact">
+    <div class="wrap contact-grid reveal">
+      <div>
+        <span class="eyebrow">Connect</span>
+        <h2>Open to the next conversation.</h2>
+      </div>
+      <p>
+        <a href="mailto:sinwongjet@gmail.com">sinwongjet@gmail.com</a>
+        <span class="role-line">Data Analyst · AI-powered operations · Web solutions</span>
+      </p>
+    </div>
+  </section>
+
+  <footer class="footer wrap">
+    © 2026 Wong Sin Jet · Internship Portfolio
+    <span class="version-tag">v6 · clean (no frame editor)</span>
+  </footer>
+
+  <script>
+    (function () {
+      var header = document.querySelector('.site-header');
+      if (header) {
+        var onScroll = function () {
+          header.classList.toggle('scrolled', window.scrollY > 10);
+        };
+        onScroll();
+        window.addEventListener('scroll', onScroll, { passive: true });
+      }
+
+      document.querySelectorAll('img[data-photo]').forEach(function (img) {
+        var slot = img.closest('.photo-slot');
+        function show() { if (slot) slot.classList.add('has-image'); }
+        function hide() {
+          img.style.display = 'none';
+          if (slot) slot.classList.remove('has-image');
+        }
+        img.addEventListener('load', show);
+        img.addEventListener('error', hide);
+        if (img.complete) {
+          if (img.naturalWidth > 0) show();
+          else hide();
+        }
+      });
+
+      var reveals = document.querySelectorAll('.reveal');
+      if (!reveals.length) return;
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        reveals.forEach(function (el) { el.classList.add('visible'); });
+        return;
+      }
+      if (!('IntersectionObserver' in window)) {
+        reveals.forEach(function (el) { el.classList.add('visible'); });
+        return;
+      }
+      var observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -36px 0px' });
+      reveals.forEach(function (el) { observer.observe(el); });
+    })();
+  </script>
+</body>
+</html>

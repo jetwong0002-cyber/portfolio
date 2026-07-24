@@ -1,0 +1,60 @@
+Portfolio version log
+=====================
+
+index.html + style.css
+  Original / previous working design (water background, photo slots).
+  Keep as stable baseline.
+
+index-v2.html + style-v2.css
+  2026-07-23 redesign applying:
+  - TasteSkill (design-taste-frontend): anti-slop, dials 6/5/4, no em-dash,
+    eyebrow restraint, sans stack, asymmetric hero
+  - Garden Skill (web-design-engineer): intentional craft, motion, hierarchy
+  - UI/UX Pro Max: design system (trust teal, Archivo + Space Grotesk,
+    Swiss/minimal ops portfolio pattern)
+
+Open v2:
+  file:///C:/Users/ACER/Documents/Codex/2026-07-23/grill-me-c-users-acer-codex/outputs/index-v2.html
+
+index-v3.html + style-v3.css
+  2026-07-23 PERFORMANCE build.
+  Same layout/design as v2, but removes GPU-heavy continuous effects
+  that caused laptop lag / FPS drop:
+  - large animated filter:blur orbs
+  - mix-blend-mode caustics + shimmer
+  - rising bubbles (10 infinite animations)
+  - sliding full-width SVG waves
+  - backdrop-filter blurs on header/cards
+  - infinite box-shadow pulse + gradient text shimmer
+  Use v3 for everyday browsing. Keep v1/v2 for visual comparison.
+
+Open v3 (recommended):
+  file:///C:/Users/ACER/Documents/Codex/2026-07-23/grill-me-c-users-acer-codex/outputs/index-v3.html
+
+index-v4.html + style-v4.css
+  2026-07-23: light ambient motion restored safely.
+  - soft radial orbs (no filter:blur)
+  - 3 bubbles, 1 wash drift, 1 wave
+  - animate transform/opacity only
+  Best balance of look + FPS.
+
+Open v4 (recommended):
+  file:///C:/Users/ACER/Documents/Codex/2026-07-23/grill-me-c-users-acer-codex/outputs/index-v4.html
+
+Next edits: save as index-v5.html / style-v5.css.
+
+index-v5.html + style-v5.css
+  Frame customize mode: drag handles to resize photo frames.
+  Click "Customize frames" (bottom-right). Sizes save in localStorage.
+  Explains why earlier versions had no drag-resize (static CSS frames).
+
+Open v5:
+  file:///C:/Users/ACER/Documents/Codex/2026-07-23/grill-me-c-users-acer-codex/outputs/index-v5.html
+
+Next: index-v6 / style-v6
+
+index-v6.html + style-v6.css
+  Clean build based on v4. Frame customize / drag-resize removed.
+  Recommended daily version until photos + content polish.
+
+Open: file:///C:/Users/ACER/Documents/Codex/2026-07-23/grill-me-c-users-acer-codex/outputs/index-v6.html

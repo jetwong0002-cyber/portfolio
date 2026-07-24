@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>July — Wong Sin Jet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-glow" aria-hidden="true">
+    <div class="water-wash"></div>
+    <span class="orb orb-a"></span>
+    <span class="orb orb-b"></span>
+    <span class="orb orb-c"></span>
+    <span class="orb orb-d"></span>
+    <div class="water-caustics"></div>
+    <div class="water-shimmer"></div>
+    <div class="bubbles">
+      <span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <div class="wave-band">
+      <svg class="wave-1" viewBox="0 0 2880 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,64 C240,120 480,0 720,48 C960,96 1200,24 1440,64 C1680,120 1920,0 2160,48 C2400,96 2640,24 2880,64 L2880,120 L0,120 Z"></path>
+      </svg>
+      <svg class="wave-2" viewBox="0 0 2880 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,80 C200,20 400,100 720,60 C1040,20 1240,90 1440,50 C1640,20 1840,100 2160,60 C2480,20 2680,90 2880,50 L2880,120 L0,120 Z"></path>
+      </svg>
+      <svg class="wave-3" viewBox="0 0 2880 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,90 C320,40 560,110 880,70 C1120,40 1280,100 1440,80 C1760,40 2000,110 2320,70 C2560,40 2720,100 2880,80 L2880,120 L0,120 Z"></path>
+      </svg>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">WSJ</span>
+        <span class="brand-text">Wong Sin Jet<small>Internship portfolio · 2026</small></span>
+      </a>
+      <nav class="nav-links"><a class="home" href="index.html">← Home</a></nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="month-hero">
+      <div class="wrap">
+        <span class="eyebrow">Month 04 · Longmotive internship</span>
+        <h1>July.</h1>
+        <p class="subtitle">Closing the internship by consolidating the operational habits, communication skills, and system thinking developed across four months.</p>
+        <div class="month-hero-photo">
+          <div class="photo-slot" data-label="July">
+            <img src="images/july.jpg" alt="July internship at Longmotive" data-photo>
+            <div class="photo-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <rect x="3" y="4" width="18" height="14" rx="2"/>
+                <path d="M3 15l5-4 4 3 3-2 6 5"/>
+              </svg>
+              <span>July cover photo</span>
+              <small>images/july.jpg</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="weekly">
+          <div class="week-label"><span>Week 01</span>Continuity</div>
+          <div>
+            <h3>Keeping daily operations moving.</h3>
+            <p>I continued supporting the routines I had built confidence in: storekeeping, ordering, office coordination, and worker induction.</p>
+            <ul>
+              <li>Maintained organised stock and store records.</li>
+              <li>Supported ordering follow-up and coordination.</li>
+              <li>Helped keep shared office tasks on track.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="weekly">
+          <div class="week-label"><span>Week 02</span>Clear communication</div>
+          <div>
+            <h3>Supporting workers through induction.</h3>
+            <p>Induction work continued to combine operational coordination with communication support for Chinese workers.</p>
+            <ul>
+              <li>Helped workers understand the induction process.</li>
+              <li>Supported Chinese-language communication where needed.</li>
+              <li>Contributed to an orderly and welcoming process.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="weekly">
+          <div class="week-label"><span>Week 03</span>Reflection</div>
+          <div>
+            <h3>Turning observations into a system.</h3>
+            <p>By this point, the patterns behind repeated induction tasks were clear: consistent inputs, one central record, and a simple status view make coordination easier.</p>
+            <ul>
+              <li>Consolidated the concept for a worker-induction tracking system.</li>
+              <li>Connected operational needs with Google Sheets, Apps Script, HTML, and Power BI.</li>
+              <li>Focused on making information easier for the team to use.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="weekly">
+          <div class="week-label"><span>Week 04</span>Closing chapter</div>
+          <div>
+            <h3>Bringing field experience forward.</h3>
+            <p>I finished the internship with a stronger understanding of how reliable operational work and thoughtful data design can support each other.</p>
+            <ul>
+              <li>Continued core site and office support duties.</li>
+              <li>Completed the internship period with a practical operations perspective.</li>
+              <li>Prepared to apply this experience in future data and automation roles.</li>
+            </ul>
+          </div>
+        </div>
+        <aside class="note"><b>July takeaway:</b> Good analysis starts with understanding the real work. This internship gave me that foundation: observe the process, support the people, then make the system clearer.</aside>
+      </div>
+    </section>
+  </main>
+
+  <div class="wrap pager">
+    <a href="june.html">← June</a>
+    <a href="index.html">Portfolio home →</a>
+  </div>
+  <script>
+    document.querySelectorAll('img[data-photo]').forEach(function (img) {
+      var slot = img.closest('.photo-slot');
+      function show() { if (slot) slot.classList.add('has-image'); }
+      function hide() { img.style.display = 'none'; if (slot) slot.classList.remove('has-image'); }
+      img.addEventListener('load', show);
+      img.addEventListener('error', hide);
+      if (img.complete) { if (img.naturalWidth > 0) show(); else hide(); }
+    });
+  </script>
+</body>
+</html>
