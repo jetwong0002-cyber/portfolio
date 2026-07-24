@@ -38,5 +38,5 @@ TIPS
 • You do not need every photo — add what you have; leave the rest empty.
 • After adding files, refresh the browser (Ctrl+F5) to see them.
 
-Folder location:
-  .../outputs/images/
+Folder location (relative to the repo root):
+  images/
