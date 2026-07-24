@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>April — Wong Sin Jet</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style-v6.css">
 </head>
 <body>
   <div class="bg-glow" aria-hidden="true">
@@ -12,33 +12,23 @@
     <span class="orb orb-a"></span>
     <span class="orb orb-b"></span>
     <span class="orb orb-c"></span>
-    <span class="orb orb-d"></span>
-    <div class="water-caustics"></div>
-    <div class="water-shimmer"></div>
     <div class="bubbles">
-      <span></span><span></span><span></span><span></span><span></span>
-      <span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span>
     </div>
     <div class="wave-band">
-      <svg class="wave-1" viewBox="0 0 2880 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M0,64 C240,120 480,0 720,48 C960,96 1200,24 1440,64 C1680,120 1920,0 2160,48 C2400,96 2640,24 2880,64 L2880,120 L0,120 Z"></path>
-      </svg>
-      <svg class="wave-2" viewBox="0 0 2880 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M0,80 C200,20 400,100 720,60 C1040,20 1240,90 1440,50 C1640,20 1840,100 2160,60 C2480,20 2680,90 2880,50 L2880,120 L0,120 Z"></path>
-      </svg>
-      <svg class="wave-3" viewBox="0 0 2880 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M0,90 C320,40 560,110 880,70 C1120,40 1280,100 1440,80 C1760,40 2000,110 2320,70 C2560,40 2720,100 2880,80 L2880,120 L0,120 Z"></path>
+      <svg viewBox="0 0 2880 90" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0,40 C240,80 480,10 720,36 C960,62 1200,18 1440,40 C1680,62 1920,10 2160,36 C2400,62 2640,18 2880,40 L2880,90 L0,90 Z"></path>
       </svg>
     </div>
   </div>
 
-  <header class="site-header">
-    <div class="wrap nav">
+  <header class="site-header" id="top">
+    <div class="header-inner">
       <a class="brand" href="index.html">
         <span class="brand-mark">WSJ</span>
         <span class="brand-text">Wong Sin Jet<small>Internship portfolio · 2026</small></span>
       </a>
-      <nav class="nav-links"><a class="home" href="index.html">← Home</a></nav>
+      <nav class="nav-links" aria-label="Primary"><a href="index.html">← Home</a></nav>
     </div>
   </header>
 
