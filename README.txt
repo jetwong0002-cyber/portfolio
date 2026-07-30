@@ -16,6 +16,14 @@ If a file is missing, a clean placeholder stays visible.
   workflow.png          Detailed overview of the full workflow
                         Recommended for screenshots: 1200×700+ px
 
+--- DAILY SYSTEM WORK ---
+  daily-master-sheet.png          Central worker record
+  daily-apps-script.png           Apps Script automation
+  daily-review-queue.png          Exception review queue
+  daily-processing-log.png        Decision and processing audit trail
+  daily-company-dictionary.png    Approved names and aliases
+  daily-power-bi-setup.png        Power BI preparation (in progress)
+
 --- PROGRESS GALLERY ---
   progress-01.jpg       Daily ops / site work (tall portrait works well)
   progress-02.jpg       Team event (Earth Day, safety day, etc.)
