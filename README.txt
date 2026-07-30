@@ -12,8 +12,8 @@ If a file is missing, a clean placeholder stays visible.
 
 --- SYSTEM / DASHBOARD ---
   system.jpg            Induction system / Google Sheet screenshot
-  dashboard.jpg         HTML or Power BI dashboard screenshot
-  workflow.jpg          Optional wide overview of the full workflow
+  dashboard.png         Live HTML dashboard screenshot
+  workflow.png          Detailed overview of the full workflow
                         Recommended for screenshots: 1200×700+ px
 
 --- PROGRESS GALLERY ---
@@ -32,8 +32,10 @@ If a file is missing, a clean placeholder stays visible.
 ========================================
 TIPS
 ========================================
-• JPG, PNG, or WEBP are fine. If you use .png, either rename to .jpg
-  or change the src path inside index.html (and the month pages).
+• JPG, PNG, or WEBP are fine. Dashboard and workflow use PNG so interface
+  text stays sharper than it would after JPG compression.
+• For future workflow updates, export directly from Figma as PNG at 2× or 3×.
+  Keep the simplified HTML workflow on the page so the story stays readable.
 • Prefer photos that are clear and not too dark.
 • You do not need every photo — add what you have; leave the rest empty.
 • After adding files, refresh the browser (Ctrl+F5) to see them.

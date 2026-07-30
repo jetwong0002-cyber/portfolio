@@ -136,61 +136,9 @@
               Intake, tracking, and reporting in one place: a central sheet, light automation,
               and a visual dashboard so induction status is easy to check and discuss.
             </p>
-
-            <div class="shots">
-              <figure class="shot">
-                <div class="photo-slot">
-                  <img src="images/system.jpg" alt="Induction system interface" data-photo>
-                  <div class="photo-placeholder">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-                      <rect x="3" y="4" width="18" height="14" rx="2"/>
-                      <path d="M3 15l5-4 4 3 3-2 6 5"/>
-                    </svg>
-                    <span>System</span>
-                    <small>images/system.jpg</small>
-                  </div>
-                </div>
-                <figcaption>
-                  <strong>System view</strong>
-                  <span>Sheets / intake workflow</span>
-                </figcaption>
-              </figure>
-
-              <figure class="shot">
-                <div class="photo-slot">
-                  <img src="images/dashboard.jpg" alt="Induction dashboard" data-photo>
-                  <div class="photo-placeholder">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-                      <rect x="3" y="4" width="18" height="14" rx="2"/>
-                      <path d="M7 14v-2M12 14V8M17 14v-4"/>
-                    </svg>
-                    <span>Dashboard</span>
-                    <small>images/dashboard.jpg</small>
-                  </div>
-                </div>
-                <figcaption>
-                  <strong>Dashboard</strong>
-                  <span>HTML / Power BI board</span>
-                </figcaption>
-              </figure>
-
-              <figure class="shot wide">
-                <div class="photo-slot">
-                  <img src="images/workflow.jpg" alt="Full induction workflow overview" data-photo>
-                  <div class="photo-placeholder">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-                      <rect x="3" y="4" width="18" height="14" rx="2"/>
-                      <path d="M3 15l5-4 4 3 3-2 6 5"/>
-                    </svg>
-                    <span>Workflow overview</span>
-                    <small>images/workflow.jpg</small>
-                  </div>
-                </div>
-                <figcaption>
-                  <strong>How it fits together</strong>
-                  <span>Intake to sheet to automation to dashboard</span>
-                </figcaption>
-              </figure>
+            <div class="project-status" aria-label="Project delivery status">
+              <span><b class="status-dot live"></b><strong>Live build</strong> HTML operations dashboard</span>
+              <span><b class="status-dot next"></b><strong>Next iteration</strong> Power BI reporting</span>
             </div>
           </div>
 
@@ -215,11 +163,64 @@
             </li>
             <li>
               <div>
-                <h4>HTML + Power BI dashboard</h4>
+                <h4>HTML operations dashboard</h4>
                 <p>Status that is easy to monitor, share, and talk through.</p>
               </div>
             </li>
           </ol>
+
+          <div class="shots">
+            <figure class="shot shot-dashboard wide">
+              <div class="photo-slot">
+                <img src="images/dashboard.png" alt="Live Longmotive induction dashboard showing daily KPIs, company headcount, and worker records" data-photo>
+                <div class="photo-placeholder">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                    <rect x="3" y="4" width="18" height="14" rx="2"/>
+                    <path d="M7 14v-2M12 14V8M17 14v-4"/>
+                  </svg>
+                  <span>Dashboard</span>
+                  <small>images/dashboard.png</small>
+                </div>
+              </div>
+              <figcaption>
+                <strong>Live operations dashboard</strong>
+                <span>HTML dashboard · click the image to inspect the full interface</span>
+              </figcaption>
+            </figure>
+
+            <section class="workflow-summary wide" aria-labelledby="workflow-summary-title">
+              <div class="workflow-summary-copy">
+                <span class="eyebrow">System at a glance</span>
+                <h4 id="workflow-summary-title">From worker input to a usable daily view.</h4>
+                <p>The portfolio keeps the main story readable; the detailed architecture remains available below.</p>
+              </div>
+              <ol class="flow-track">
+                <li><span>01</span><strong>Google Form</strong><small>Worker input</small></li>
+                <li><span>02</span><strong>Apps Script</strong><small>Validate and process</small></li>
+                <li><span>03</span><strong>Google Sheets</strong><small>Source of truth</small></li>
+                <li><span>04</span><strong>HTML dashboard</strong><small>Daily operations</small></li>
+                <li class="planned"><span>05</span><strong>Power BI</strong><small>Planned reporting</small></li>
+              </ol>
+            </section>
+
+            <figure class="shot shot-workflow wide">
+              <div class="photo-slot">
+                <img src="images/workflow.png" alt="Detailed end-to-end system workflow linking people, automation, data stores, dashboard, and planned Power BI reporting" data-photo>
+                <div class="photo-placeholder">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                    <rect x="3" y="4" width="18" height="14" rx="2"/>
+                    <path d="M3 15l5-4 4 3 3-2 6 5"/>
+                  </svg>
+                  <span>Workflow overview</span>
+                  <small>images/workflow.png</small>
+                </div>
+              </div>
+              <figcaption>
+                <strong>Detailed system architecture</strong>
+                <span>Full workflow · click to open at the largest available size</span>
+              </figcaption>
+            </figure>
+          </div>
         </article>
       </div>
     </section>
@@ -310,7 +311,7 @@
 
         <p class="gallery-hint reveal">
           Drop photos into <code>images/</code> using names like <code>portrait.jpg</code> and
-          <code>dashboard.jpg</code>. Placeholders fill automatically when files are present.
+          <code>dashboard.png</code>. Placeholders fill automatically when files are present.
         </p>
       </div>
     </section>
