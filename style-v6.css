@@ -1194,6 +1194,9 @@ main, .contact, .footer { position: relative; z-index: 1; }
   gap: 16px;
   align-items: start;
 }
+.month-story-photos.single {
+  grid-template-columns: minmax(0, 1fr);
+}
 .month-story-photo {
   margin: 0;
   overflow: hidden;
