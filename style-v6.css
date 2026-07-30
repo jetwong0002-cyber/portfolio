@@ -1155,6 +1155,78 @@ main, .contact, .footer { position: relative; z-index: 1; }
 }
 .note b { color: var(--primary-deep); }
 
+.month-stories {
+  display: grid;
+  gap: 22px;
+}
+.month-story {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.6fr) minmax(0, 1.4fr);
+  gap: clamp(22px, 3.5vw, 42px);
+  align-items: start;
+  padding: clamp(22px, 3vw, 32px);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--card);
+  box-shadow: var(--shadow-sm);
+}
+.month-story-copy {
+  position: sticky;
+  top: 96px;
+}
+.month-story-copy h3 {
+  margin: 8px 0 10px;
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 2.2vw, 1.8rem);
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  color: var(--ink);
+}
+.month-story-copy p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
+.month-story-photos {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  align-items: start;
+}
+.month-story-photo {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #fff;
+}
+.month-story-photo .photo-slot {
+  height: auto;
+  background: #eef5f5;
+}
+.month-story-photo.landscape .photo-slot { aspect-ratio: 4 / 3; }
+.month-story-photo.portrait .photo-slot { aspect-ratio: 4 / 5; }
+.month-story-photo .photo-slot img {
+  object-fit: contain;
+  background: #eef5f5;
+}
+.month-story-photo figcaption {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 14px 15px 16px;
+}
+.month-story-photo figcaption strong {
+  color: var(--ink);
+  font-size: 0.9rem;
+}
+.month-story-photo figcaption span {
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.45;
+}
+
 .pager {
   display: flex;
   align-items: center;
@@ -1169,6 +1241,14 @@ main, .contact, .footer { position: relative; z-index: 1; }
 
 @media (max-width: 760px) {
   .weekly { grid-template-columns: 1fr; gap: 6px; }
+  .month-story { grid-template-columns: 1fr; }
+  .month-story-copy { position: static; }
+}
+
+@media (max-width: 520px) {
+  .month-story-photos { grid-template-columns: 1fr; }
+  .month-story-photo.landscape .photo-slot { aspect-ratio: 4 / 3; }
+  .month-story-photo.portrait .photo-slot { aspect-ratio: 4 / 5; }
 }
 
 /* ========== CONTACT ========== */
