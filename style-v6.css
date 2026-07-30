@@ -1229,6 +1229,64 @@ main, .contact, .footer { position: relative; z-index: 1; }
   font-size: 0.78rem;
   line-height: 1.45;
 }
+.handover-panel {
+  padding: clamp(20px, 3vw, 28px);
+  border: 1px solid #99ddd3;
+  border-radius: 14px;
+  background: linear-gradient(145deg, #f0fdfa, #f0f9ff);
+}
+.handover-status {
+  display: inline-flex;
+  margin-bottom: 18px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #ccfbf1;
+  color: var(--primary-deep);
+  font-family: var(--font-mono);
+  font-size: 0.67rem;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+.handover-steps {
+  display: grid;
+  gap: 10px;
+}
+.handover-steps section {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 13px;
+  align-items: center;
+  padding: 14px;
+  border: 1px solid rgba(15, 118, 110, 0.14);
+  border-radius: 11px;
+  background: rgba(255, 255, 255, 0.82);
+}
+.handover-steps section > span {
+  font-family: var(--font-mono);
+  color: var(--primary);
+  font-size: 0.72rem;
+}
+.handover-steps strong {
+  display: block;
+  color: var(--ink);
+  font-size: 0.9rem;
+}
+.handover-steps p {
+  margin: 3px 0 0;
+  color: var(--muted);
+  font-size: 0.76rem;
+  line-height: 1.45;
+}
+.handover-steps small {
+  padding: 5px 8px;
+  border-radius: 999px;
+  background: var(--paper-2);
+  color: var(--primary-deep);
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  white-space: nowrap;
+}
 
 .pager {
   display: flex;
@@ -1252,6 +1310,8 @@ main, .contact, .footer { position: relative; z-index: 1; }
   .month-story-photos { grid-template-columns: 1fr; }
   .month-story-photo.landscape .photo-slot { aspect-ratio: 4 / 3; }
   .month-story-photo.portrait .photo-slot { aspect-ratio: 4 / 5; }
+  .handover-steps section { grid-template-columns: auto minmax(0, 1fr); }
+  .handover-steps small { grid-column: 2; justify-self: start; }
 }
 
 /* ========== CONTACT ========== */
