@@ -1,52 +1,54 @@
 ========================================
-  PHOTO FILENAMES — drop files here
+  PORTFOLIO IMAGE GUIDE
 ========================================
 
-Put your pictures in THIS folder using the exact names below.
-When a file is present, the website shows it automatically.
-If a file is missing, a clean placeholder stays visible.
+PRIVACY RULE
+------------
+Never publish production screenshots, real worker records, company metrics,
+credentials, internal code, or confidential architecture in this repository.
+Operational interface images must use clearly labelled synthetic data.
 
 --- PERSONAL ---
   portrait.jpg          Hero personal / portrait photo
-                        Recommended: 800×1000 px (portrait)
+                        Recommended: 800 x 1000 px (portrait)
 
---- SYSTEM / DASHBOARD ---
-  system.jpg            Induction system / Google Sheet screenshot
-  dashboard.png         Live HTML dashboard screenshot
-  workflow.png          Detailed overview of the full workflow
-                        Recommended for screenshots: 1200×700+ px
+--- SYNTHETIC SYSTEM / DASHBOARD ---
+  system.jpg            Synthetic decision-dashboard preview
+  dashboard.png         Synthetic decision-support dashboard
+  workflow.png          Privacy-conscious conceptual workflow
+                        No production data or architecture
 
---- DAILY SYSTEM WORK ---
-  daily-master-sheet.png          Central worker record
-  daily-apps-script.png           Apps Script automation
-  daily-review-queue.png          Exception review queue
-  daily-processing-log.png        Decision and processing audit trail
-  daily-company-dictionary.png    Approved names and aliases
-  daily-power-bi-setup.png        Power BI preparation (in progress)
+--- SYNTHETIC METHOD EVIDENCE ---
+  daily-master-sheet.png          Fictional case register
+  daily-apps-script.png           Synthetic decision-rule pseudocode
+  daily-review-queue.png          Fictional exception review queue
+  daily-processing-log.png        Fictional decision audit trail
+  daily-company-dictionary.png    Fictional reference dictionary
+  daily-power-bi-setup.png        Synthetic reporting model concept
 
 --- PROGRESS GALLERY ---
-  progress-01.jpg       Daily ops / site work (tall portrait works well)
-  progress-02.jpg       Team event (Earth Day, safety day, etc.)
-  progress-03.jpg       Tools in action (laptop, sheets, process)
-  progress-04.jpg       Highlight moment (wide banner)
+  progress-01.jpg       Daily operations / site support
+  progress-02.jpg       Workplace event
+  progress-03.jpg       Synthetic decision-dashboard preview
+  progress-04.jpg       Internship highlight
 
---- MONTHLY CARDS ---
-  april.jpg             Cover photo for April card + April page
-  may.jpg               Cover photo for May
-  june.jpg              Cover photo for June
-  july.jpg              Cover photo for July
-                        Recommended: 1000×750 px (landscape)
+--- MONTHLY PHOTOS ---
+  april-*.jpg           April activities
+  may-*.jpg             May activities
+  june-*.jpg            June activities
+  july-*.jpg            July activities
 
 ========================================
-TIPS
+  SAFE-ASSET CHECKLIST
 ========================================
-• JPG, PNG, or WEBP are fine. Dashboard and workflow use PNG so interface
-  text stays sharper than it would after JPG compression.
-• For future workflow updates, export directly from Figma as PNG at 2× or 3×.
-  Keep the simplified HTML workflow on the page so the story stays readable.
-• Prefer photos that are clear and not too dark.
-• You do not need every photo — add what you have; leave the rest empty.
-• After adding files, refresh the browser (Ctrl+F5) to see them.
 
-Folder location (relative to the repo root):
+* Use PNG for interfaces and diagrams so text stays sharp.
+* Label every synthetic operational image visibly.
+* Use fictional case IDs, organisation groups, dates, and values.
+* Do not publish blurred production screenshots: hidden data remains in the file.
+* Do not include credentials, URLs with IDs, internal code, or production architecture.
+* Use only photos that are appropriate and approved for portfolio use.
+* Strip unnecessary metadata before publishing new images.
+
+Folder location:
   images/

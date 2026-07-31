@@ -593,6 +593,17 @@ main, .contact, .footer { position: relative; z-index: 1; }
   color: var(--ink);
   font-weight: 650;
 }
+.privacy-note {
+  margin: 0;
+  padding: 14px 16px;
+  border: 1px solid rgba(15, 118, 110, 0.2);
+  border-radius: 12px;
+  background: rgba(204, 251, 241, 0.45);
+  color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.55;
+}
+.privacy-note strong { color: var(--primary-deep); }
 .status-dot {
   width: 8px;
   height: 8px;
