@@ -15,7 +15,7 @@ Operational interface images must use clearly labelled synthetic data.
 --- SYNTHETIC SYSTEM / DASHBOARD ---
   system.jpg            Synthetic decision-dashboard preview
   dashboard.png         Synthetic decision-support dashboard
-  workflow.png          Privacy-conscious conceptual workflow
+  workflow.png          Privacy-conscious working-system workflow
                         No production data or architecture
 
 --- SYNTHETIC METHOD EVIDENCE ---
@@ -24,7 +24,6 @@ Operational interface images must use clearly labelled synthetic data.
   daily-review-queue.png          Fictional exception review queue
   daily-processing-log.png        Fictional decision audit trail
   daily-company-dictionary.png    Fictional reference dictionary
-  daily-power-bi-setup.png        Synthetic reporting model concept
 
 --- PROGRESS GALLERY ---
   progress-01.jpg       Daily operations / site support
