@@ -103,15 +103,15 @@
         <div class="stats reveal">
           <div class="stat">
             <b>Data</b>
-            <span>Consistent fields and reference values create a reliable decision foundation.</span>
+            <span>Form submissions are written to the master record and pending queue immediately.</span>
           </div>
           <div class="stat">
-            <b>Rules</b>
-            <span>Validation and matching logic make routine outcomes more consistent and explainable.</span>
+            <b>AI</b>
+            <span>Every submitted company name is checked and returned as keep, rename, or review.</span>
           </div>
           <div class="stat">
-            <b>Review</b>
-            <span>Uncertain cases remain visible so human judgement stays part of the workflow.</span>
+            <b>Admin</b>
+            <span>Confirms unresolved names and adds approved company names or aliases when needed.</span>
           </div>
         </div>
       </div>
@@ -124,57 +124,72 @@
           <span class="eyebrow">Decision science case study</span>
           <h2>Scattered records to consistent operational decisions.</h2>
           <p>
-            A privacy-conscious case study in structuring operational data, applying decision rules,
-            escalating exceptions, and presenting outcomes clearly.
+            A working system that structures induction records, checks company names with AI,
+            applies code-based guardrails, escalates exceptions, and presents same-day outcomes.
           </p>
         </div>
 
         <article class="project reveal">
           <div class="project-intro">
-            <h3>One decision workflow. Clear rules. Human review.</h3>
+            <h3>A working AI-assisted workflow with human control.</h3>
             <p>
-              The design connects intake, validation, standardisation, exception handling, and a dashboard.
-              Routine cases can be handled consistently while uncertain cases remain visible for review.
+              The delivered system connects form intake, immediate record updates, background AI checking,
+              an admin-maintained company dictionary, exception handling, an audit log, and a live HTML dashboard.
             </p>
             <div class="project-status" aria-label="Project delivery status">
-              <span><b class="status-dot live"></b><strong>Prototype</strong> Decision-support dashboard</span>
-              <span><b class="status-dot next"></b><strong>Privacy-safe evidence</strong> Synthetic examples only</span>
+              <span><b class="status-dot live"></b><strong>Delivered</strong> Apps Script system + HTML dashboard</span>
+              <span><b class="status-dot next"></b><strong>Next step</strong> Power BI dashboard</span>
             </div>
             <p class="privacy-note">
               <strong>Confidentiality:</strong> Every operational screenshot below uses fictional identifiers and
-              synthetic values. No real worker records, company data, production code, credentials, or internal
-              architecture are shown.
+              synthetic values to represent the working system. No real worker records, company data, production
+              code, credentials, or internal architecture are shown.
             </p>
           </div>
 
           <ol class="steps">
             <li>
               <div>
-                <h4>Problem framing</h4>
-                <p>Identify where inconsistent records and unclear exceptions slow down daily decisions.</p>
+                <h4>Immediate capture</h4>
+                <p>Write each form submission to the master record and pending queue without waiting for AI.</p>
               </div>
             </li>
             <li>
               <div>
-                <h4>Structured data</h4>
-                <p>Define consistent fields, case IDs, statuses, and reference values.</p>
+                <h4>AI name checking</h4>
+                <p>Check the submitted company name against approved names and aliases in the background.</p>
               </div>
             </li>
             <li>
               <div>
-                <h4>Decision logic</h4>
-                <p>Apply validation and matching rules while recording reasons and confidence.</p>
+                <h4>Code guardrails</h4>
+                <p>Accept only active dictionary names with sufficient confidence; flag uncertain results.</p>
               </div>
             </li>
             <li>
               <div>
-                <h4>Human review</h4>
-                <p>Escalate uncertain cases and present final outcomes in an explainable dashboard.</p>
+                <h4>Admin exceptions</h4>
+                <p>Confirm unresolved names, add or update approved names and aliases, and keep every outcome auditable.</p>
               </div>
             </li>
           </ol>
 
           <div class="shots">
+            <section class="outcome-panel wide" aria-labelledby="outcome-title">
+              <div class="outcome-heading">
+                <span class="eyebrow">Delivered outcomes</span>
+                <h4 id="outcome-title">What the completed system already does.</h4>
+              </div>
+              <div class="outcome-grid">
+                <article><strong>Same-day records</strong><span>New submissions appear in the master record, pending queue, and HTML dashboard immediately.</span></article>
+                <article><strong>AI company-name checks</strong><span>Each name receives a KEEP, RENAME, or REVIEW recommendation with confidence and reason.</span></article>
+                <article><strong>Controlled decisions</strong><span>Code accepts only active official names and applies a minimum confidence threshold.</span></article>
+                <article><strong>Exception management</strong><span>Low-confidence, invalid, and API-error cases are marked for review instead of silently accepted.</span></article>
+                <article><strong>Admin maintenance</strong><span>Admins confirm unresolved names and add approved names or aliases; pending items can then be checked again.</span></article>
+                <article><strong>Traceable reporting</strong><span>Verified outcomes update the source, master record, processing log, and live HTML dashboard.</span></article>
+              </div>
+            </section>
+
             <figure class="shot shot-dashboard wide">
               <div class="photo-slot">
                 <img src="images/dashboard.png" alt="Synthetic induction decision-support dashboard using fictional cases and values" data-photo>
@@ -188,23 +203,23 @@
                 </div>
               </div>
               <figcaption>
-                <strong>Privacy-safe decision dashboard</strong>
-                <span>Synthetic data &middot; design evidence only</span>
+                <strong>Privacy-safe representation of the live HTML dashboard</strong>
+                <span>Synthetic data &middot; working system evidence</span>
               </figcaption>
             </figure>
 
             <section class="workflow-summary wide" aria-labelledby="workflow-summary-title">
               <div class="workflow-summary-copy">
-                <span class="eyebrow">Decision logic</span>
-                <h4 id="workflow-summary-title">From structured input to explainable action.</h4>
-                <p>Each outcome keeps its reason visible; uncertain cases move to human review instead of being hidden.</p>
+                <span class="eyebrow">Delivered workflow</span>
+                <h4 id="workflow-summary-title">Fast intake, AI checking, controlled outcomes.</h4>
+                <p>The dashboard updates immediately; AI checking runs in the background, while code and admin review protect data quality.</p>
               </div>
               <ol class="flow-track">
-                <li><span>01</span><strong>Structured input</strong><small>Consistent fields</small></li>
-                <li><span>02</span><strong>Validation</strong><small>Required checks</small></li>
-                <li><span>03</span><strong>Standardisation</strong><small>Reference matching</small></li>
-                <li><span>04</span><strong>Human review</strong><small>Exception handling</small></li>
-                <li class="planned"><span>05</span><strong>Audit + dashboard</strong><small>Explainable outcome</small></li>
+                <li><span>01</span><strong>Form submission</strong><small>New induction record</small></li>
+                <li><span>02</span><strong>Immediate update</strong><small>Master + pending + HTML</small></li>
+                <li><span>03</span><strong>AI name check</strong><small>Keep, rename, or review</small></li>
+                <li><span>04</span><strong>Code guardrails</strong><small>Dictionary + confidence</small></li>
+                <li><span>05</span><strong>Update or review</strong><small>Audit trail retained</small></li>
               </ol>
             </section>
 
@@ -213,8 +228,8 @@
                 <span class="eyebrow">Method evidence</span>
                 <h4 id="daily-work-title">What I designed and tested.</h4>
                 <p>
-                  Confidential source material has been replaced with synthetic examples that demonstrate
-                  the data structure, rules, review path, audit trail, and reporting model.
+                  These synthetic representations show the working system’s data structure, AI-checking logic,
+                  admin exception path, audit trail, and live HTML reporting without exposing company data.
                 </p>
               </div>
 
@@ -244,8 +259,8 @@
                   </div>
                   <figcaption>
                     <span class="work-kicker">02 · Decision logic</span>
-                    <strong>Decision-rule pseudocode</strong>
-                    <span>Explaining validation, confidence thresholds, audit events, and escalation.</span>
+                    <strong>AI check + code guardrails</strong>
+                    <span>Showing background name checking, official-dictionary validation, confidence thresholds, and escalation.</span>
                   </figcaption>
                 </figure>
 
@@ -259,8 +274,8 @@
                   </div>
                   <figcaption>
                     <span class="work-kicker">03 · Exception handling</span>
-                    <strong>Review queue</strong>
-                    <span>Keeping uncertain matches visible and separating routine cases from human review.</span>
+                    <strong>AI exception queue</strong>
+                    <span>Only uncertain, invalid, or failed checks are routed to admin review.</span>
                   </figcaption>
                 </figure>
 
@@ -289,31 +304,17 @@
                   </div>
                   <figcaption>
                     <span class="work-kicker">05 · Data quality</span>
-                    <strong>Reference dictionary</strong>
-                    <span>Demonstrating how controlled names and aliases support consistent reporting.</span>
+                    <strong>Admin-maintained dictionary</strong>
+                    <span>Approved names and aliases give AI and code a controlled reference for consistent reporting.</span>
                   </figcaption>
                 </figure>
 
-                <figure class="work-shot work-shot-planned">
-                  <div class="photo-slot">
-                    <img src="images/daily-power-bi-setup.png" alt="Synthetic reporting model showing fictional fields and case records" data-photo loading="lazy" decoding="async">
-                    <div class="photo-placeholder">
-                      <span>Power BI Setup</span>
-                      <small>images/daily-power-bi-setup.png</small>
-                    </div>
-                  </div>
-                  <figcaption>
-                    <span class="work-kicker">06 · Next iteration</span>
-                    <strong>Reporting model <small class="work-badge">Concept</small></strong>
-                    <span>Showing the intended analytical structure without exposing a production dataset.</span>
-                  </figcaption>
-                </figure>
               </div>
             </section>
 
             <figure class="shot shot-workflow wide">
               <div class="photo-slot">
-                <img src="images/workflow.png" alt="Synthetic privacy-conscious decision workflow from structured input to human review and dashboard" data-photo>
+                <img src="images/workflow.png" alt="Synthetic representation of the working AI-assisted workflow from form submission to audit and HTML dashboard" data-photo>
                 <div class="photo-placeholder">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
                     <rect x="3" y="4" width="18" height="14" rx="2"/>
@@ -324,8 +325,8 @@
                 </div>
               </div>
               <figcaption>
-                <strong>Privacy-conscious decision workflow</strong>
-                <span>Synthetic diagram &middot; no production architecture or confidential integrations</span>
+                <strong>Working AI-assisted decision workflow</strong>
+                <span>Synthetic diagram &middot; no production architecture, credentials, or company data</span>
               </figcaption>
             </figure>
           </div>
@@ -495,7 +496,7 @@
             <div class="month-body">
               <span class="num">Month 04</span>
               <h3>July</h3>
-              <p>Daily training, prototype testing, documentation, handover, and team reflection.</p>
+              <p>Daily training, final system testing, documentation, handover, and team reflection.</p>
               <span class="arrow" aria-hidden="true">→</span>
             </div>
           </a>

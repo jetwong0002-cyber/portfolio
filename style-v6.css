@@ -618,6 +618,52 @@ main, .contact, .footer { position: relative; z-index: 1; }
   background: #f59e0b;
   box-shadow: 0 0 0 4px rgba(245, 158, 11, 0.12);
 }
+.outcome-panel {
+  grid-column: 1 / -1;
+  padding: clamp(22px, 3.2vw, 34px);
+  border: 1px solid rgba(37, 99, 235, 0.18);
+  border-radius: var(--radius-sm);
+  background: linear-gradient(135deg, rgba(239, 246, 255, 0.94), rgba(236, 253, 245, 0.94));
+}
+.outcome-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.outcome-heading h4 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.25rem, 2vw, 1.65rem);
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+.outcome-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+.outcome-grid article {
+  padding: 17px;
+  border: 1px solid rgba(15, 118, 110, 0.14);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.88);
+}
+.outcome-grid strong,
+.outcome-grid span {
+  display: block;
+}
+.outcome-grid strong {
+  margin-bottom: 6px;
+  color: var(--ink);
+  font-size: 0.88rem;
+}
+.outcome-grid span {
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.5;
+}
 .shots {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1513,6 +1559,7 @@ body.lightbox-open { overflow: hidden; }
 @media (max-width: 960px) {
   .hero-grid { gap: 36px; }
   .steps { grid-template-columns: 1fr 1fr; }
+  .outcome-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .flow-track { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .flow-track li:not(:last-child)::after { display: none; }
   .gallery { grid-template-columns: 1fr 1fr; }
@@ -1546,6 +1593,8 @@ body.lightbox-open { overflow: hidden; }
   .workflow-summary { grid-column: auto; }
   .workflow-summary-copy { grid-template-columns: 1fr; }
   .workflow-summary-copy .eyebrow { grid-column: auto; }
+  .outcome-heading { display: block; }
+  .outcome-heading .eyebrow { display: block; margin-bottom: 8px; }
   .flow-track { grid-template-columns: 1fr 1fr; }
   .daily-work { grid-column: auto; }
   .daily-work-head { grid-template-columns: 1fr; }
@@ -1570,6 +1619,7 @@ body.lightbox-open { overflow: hidden; }
   .month-grid { grid-template-columns: 1fr; }
   .steps,
   .flow-track { grid-template-columns: 1fr; }
+  .outcome-grid { grid-template-columns: 1fr; }
   .hero-actions { flex-direction: column; align-items: stretch; }
   .hero-actions .btn { width: 100%; }
   .nav-links a:not(.btn) { display: none; }
